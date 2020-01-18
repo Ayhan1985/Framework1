@@ -10,7 +10,7 @@ public class MapPage extends TopNavigationBar {
 	public MapPage() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
-// this code has been changed just now.
+
 	@FindBy(tagName = "h1")
 	public WebElement campus;
 
